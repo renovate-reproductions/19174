@@ -1,6 +1,6 @@
 lazy val root = (project in file("."))
 
-val slf4jVersion = "2.0.4"
+val slf4jVersion = "2.0.6"
 
 libraryDependencies ++= Seq(
     "dev.zio" %% "zio" % "2.0.4"
